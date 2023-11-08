@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+/* Header */
+
 .header-container {
     background-color: #1F2937;
 }
@@ -38,6 +40,8 @@ a {
     justify-content: flex-end;
 }
 
+/* Awesome */
+
 .one {
     display: flex;
 }
@@ -57,3 +61,30 @@ a {
     background-color: #3882f6;
     color: white;
 }
+
+
+
+/* Random info */
+
+
+
+
+
+
+
+
+
+/* Quote */
+
+
+
+
+
+
+/* second CTA  */
+
+
+
+
+
+/* Footer  */
