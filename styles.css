@@ -1,32 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 
 .header-container {
     background-color: #1F2937;
+    padding: 1em 13em;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+
 }
 
 ul {
     display: flex;
-    margin: 0;
-    padding: 0;
     gap: 16px;
     list-style-type: none;
 }
 
 a {
+    font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
 }
@@ -34,16 +41,17 @@ a {
 .links {
     font-size: 18px;
     color: #e5e7eb;
-    display: flex;
-    align-items: center;
     gap: 16px;
-    justify-content: flex-end;
 }
 
 /* Awesome */
 
 .one {
     display: flex;
+    padding: 7em 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }
 
 .awesome-big {
