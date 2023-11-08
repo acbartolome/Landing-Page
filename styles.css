@@ -1,3 +1,59 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
 .header-container {
     background-color: #1F2937;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+.one {
+    display: flex;
+}
+
+.awesome-big {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9FAF8;
+}
+
+.awesome-small {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-1 {
+    background-color: #3882f6;
+    color: white;
 }
